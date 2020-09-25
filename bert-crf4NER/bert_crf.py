@@ -14,11 +14,13 @@ import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
 from torch.utils import data 
-from transformers import BertTokenizer
+from transformers import BertTokenizer, XLMRobertaTokenizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 import numpy as np
 import os
-from transformers import BertPreTrainedModel, BertModel
+from transformers import XLMRobertaModel
+# from pytorch_transformers.modeling_bert import XLMRobertaPreTrainedModel
+
 from torchcrf import CRF
 import timeit
 import subprocess
@@ -71,7 +73,7 @@ class NER_Dataset(data.Dataset):
         self.tag2idx = tag2idx
         self.sentences = sentences
         self.labels = labels
-        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
+        self.tokenizer = XLMRobertaTokenizer.from_pretrained(tokenizer_path)
 
     def __len__(self):
         return len(self.sentences)
@@ -130,11 +132,11 @@ def pad(batch):
 
     return tok_ids, attn_mask, org_tok_map, labels, sents, list(sorted_idx.cpu().numpy())
 
-class Bert_CRF(BertPreTrainedModel):
+class Bert_CRF(XLMRobertaPreTrainedModel):
     def __init__(self, config):
         super(Bert_CRF, self).__init__(config)
         self.num_labels = config.num_labels
-        self.bert = BertModel(config)
+        self.bert = XLMRobertaModel(config)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
         self.classifier = nn.Linear(config.hidden_size, self.num_labels)
         self.init_weights()
@@ -153,7 +155,7 @@ class Bert_CRF(BertPreTrainedModel):
             prediction = self.crf.decode(emission, mask=attn_masks)
             return prediction
 
-def generate_training_data(config, bert_tokenizer="bert-base-multilingual-cased"):
+def generate_training_data(config, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-base')):
     training_data, validation_data = config.data_dir+config.training_data, config.data_dir+config.val_data 
     train_sentences, train_labels, label_set = corpus_reader(training_data, delim=' ')
     label_set.append('X')
@@ -179,7 +181,7 @@ def generate_training_data(config, bert_tokenizer="bert-base-multilingual-cased"
                                 collate_fn=pad)
     return train_iter, eval_iter, tag2idx
 
-def generate_test_data(config, tag2idx, bert_tokenizer="bert-base-multilingual-cased"):
+def generate_test_data(config, tag2idx, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-base')):
     test_data = config.data_dir+config.test_data
     test_sentences, test_labels, _ = corpus_reader(test_data, delim=' ')
     test_dataset = NER_Dataset(tag2idx, test_sentences, test_labels, tokenizer_path = bert_tokenizer)
@@ -190,7 +192,7 @@ def generate_test_data(config, tag2idx, bert_tokenizer="bert-base-multilingual-c
                                 collate_fn=pad)
     return test_iter
 
-def train(train_iter, eval_iter, tag2idx, config, bert_model="bert-base-multilingual-cased"):
+def train(train_iter, eval_iter, tag2idx, config, bert_model="xlm-roberta-base"):
     #print('#Tags: ', len(tag2idx))
     unique_labels = list(tag2idx.keys())
     model = Bert_CRF.from_pretrained(bert_model, num_labels = len(tag2idx))
@@ -374,7 +376,7 @@ def load_model(config):
     checkpoint = torch.load(config.apr_dir + config.model_name, map_location='cpu')
     model.load_state_dict(checkpoint['model_state_dict'])
     global bert_tokenizer
-    bert_tokenizer = BertTokenizer.from_pretrained(config.bert_model)
+    bert_tokenizer = XLMRobertaTokenizer.from_pretrained(config.bert_model)
     if torch.cuda.is_available():
         model.cuda()
     model.eval()
