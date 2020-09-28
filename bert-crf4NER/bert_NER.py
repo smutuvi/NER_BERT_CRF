@@ -73,7 +73,7 @@ class NER_Dataset(data.Dataset):
         self.tag2idx = tag2idx
         self.sentences = sentences
         self.labels = labels
-        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
+        self.tokenizer = XLMRobertaTokenizer.from_pretrained(tokenizer_path)
 
     def __len__(self):
         return len(self.sentences)
