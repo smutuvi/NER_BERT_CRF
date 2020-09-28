@@ -173,7 +173,7 @@ def train(train_iter, eval_iter, tag2idx, config, bert_model="xlm-roberta-base")
     #print('#Tags: ', len(tag2idx))
     unique_labels = list(tag2idx.keys())
     #model = Bert_CRF.from_pretrained(bert_model, num_labels = len(tag2idx))
-    model = BertForTokenClassification.from_pretrained(bert_model, num_labels=len(tag2idx))
+    model = XLMRobertaForTokenClassification.from_pretrained(bert_model, num_labels=len(tag2idx))
     model.train()
     if torch.cuda.is_available():
       model.cuda()
