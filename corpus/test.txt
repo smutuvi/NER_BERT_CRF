@@ -1,4 +1,4 @@
-Malaria I-DIS
+Malaria O
 blamed O
 for O
 655,000 O
@@ -7,7 +7,7 @@ in O
 2010 O
 GENEVA O
 : O
-Malaria I-DIS
+Malaria O
 caused O
 the O
 death O
@@ -66,7 +66,7 @@ the O
 216 O
 million O
 cases O
-worldwide B-LOC
+worldwide O
 in O
 2010 O
 . O
@@ -75,7 +75,7 @@ In O
 its O
 annual O
 World O
-Malaria I-DIS
+Malaria O
 Report O
 for O
 2011 O
@@ -116,7 +116,7 @@ agency O
 aims O
 to O
 eradicate O
-malaria B-DIS
+malaria O
 deaths O
 altogether O
 by O
@@ -144,7 +144,7 @@ for O
 the O
 fight O
 against O
-malaria B-DIS
+malaria O
 peaked O
 at O
 $ O
@@ -282,7 +282,7 @@ for O
 control O
 programmes O
 in O
-malaria B-DIS
+malaria O
 endemic O
 countries O
 , O
@@ -309,7 +309,7 @@ in O
 the O
 fight O
 against O
-malaria B-DIS
+malaria O
 but O
 said O
 parasite O
@@ -381,7 +381,7 @@ to O
 the O
 WHO O
 , O
-malaria B-DIS
+malaria O
 is O
 endemic O
 in O
@@ -428,7 +428,7 @@ percent O
 of O
 deaths O
 from O
-Malaria I-DIS
+Malaria O
 : O
 Nigeria O
 , O
@@ -455,7 +455,7 @@ estimated O
 176 O
 cases O
 of O
-malaria B-DIS
+malaria O
 in O
 2010 O
 with O
@@ -5917,19 +5917,19 @@ wards O
 to O
 visitors O
 over O
-norovirus B-DIS
-Norovirus I-DIS
+norovirus O
+Norovirus O
 shuts O
 wards O
 at O
 hospital O
 . O
 
-Norovirus I-DIS
+Norovirus O
 closes O
 ward O
 in O
-Bedford B-LOC
+Bedford O
 All O
 wards O
 , O
@@ -5970,7 +5970,7 @@ and O
 public O
 from O
 the O
-norovirus B-DIS
+norovirus O
 bug O
 . O
 
@@ -6163,8 +6163,8 @@ Star O
 Princess O
 ban O
 from O
-Falkland B-LOC
-Islands I-LOC
+Falkland O
+Islands O
 : O
 health O
 reasons O
@@ -6183,8 +6183,8 @@ on O
 January O
 14 O
 the O
-Falkland B-LOC
-Islands I-LOC
+Falkland O
+Islands O
 Government O
 refused O
 permission O
@@ -6198,7 +6198,7 @@ its O
 passengers O
 in O
 the O
-islands I-LOC
+islands O
 ' O
 capital O
 , O
@@ -6245,7 +6245,7 @@ of O
 the O
 highly O
 infectious O
-norovirus B-DIS
+norovirus O
 , O
 which O
 causes O
@@ -6297,7 +6297,7 @@ was O
 taken O
 by O
 the O
-Islands I-LOC
+Islands O
 ' O
 Chief O
 Medical O
@@ -6358,8 +6358,8 @@ ban O
 vessels O
 flying O
 the O
-Falkland B-LOC
-Islands I-LOC
+Falkland O
+Islands O
 flag O
 are O
 being O
@@ -6409,7 +6409,7 @@ tax O
 alone O
 . O
 
-Zimbabwe B-LOC
+Zimbabwe O
 : O
 visite O
 du O
@@ -6454,7 +6454,7 @@ Sambo O
 se O
 trouve O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 pour O
 effectuer O
 une O
@@ -6467,7 +6467,7 @@ l O
 ' O
 éruption O
 du O
-choléra B-DIS
+choléra O
 qui O
 avait O
 fait O
@@ -6525,9 +6525,9 @@ l O
 ' O
 éruption O
 de O
-choléra B-DIS
+choléra O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 et O
 à O
 ses O
@@ -6550,7 +6550,7 @@ signalé O
 des O
 cas O
 de O
-choléra B-DIS
+choléra O
 . O
 
 Au O
@@ -6579,7 +6579,7 @@ de O
 400 O
 cas O
 de O
-choléra B-DIS
+choléra O
 et O
 neuf O
 morts O
@@ -6594,7 +6594,7 @@ régions O
 limitrophes O
 avec O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 , O
 alors O
 que O
@@ -6651,7 +6651,7 @@ la O
 lutte O
 contre O
 le O
-choléra B-DIS
+choléra O
 en O
 envoyant O
 des O
@@ -6708,7 +6708,7 @@ que O
 200 O
 cas O
 de O
-choléra B-DIS
+choléra O
 modérés O
 . O
 
@@ -6740,7 +6740,7 @@ et O
 de O
 commandement O
 du O
-choléra B-DIS
+choléra O
 afin O
 de O
 favoriser O
@@ -18750,9 +18750,9 @@ post O
 vaccinale O
 . O
 
-Grippe O
+Grippe I-DIS
 et O
-gastro B-DIS
+gastro O
 entérite O
 s O
 ' O
@@ -18761,7 +18761,7 @@ au O
 réveillon O
 Epidémies O
 La O
-gastro B-DIS
+gastro O
 entérite O
 a O
 touché O
@@ -18774,7 +18774,7 @@ un O
 mois O
 , O
 la O
-grippe O
+grippe B-DIS
 310 O
 . O
 000 O
@@ -18788,7 +18788,7 @@ semaines O
 
 L O
 a O
-gastro B-DIS
+gastro O
 entérite O
 a O
 touché O
@@ -18827,7 +18827,7 @@ aiguë O
 , O
 surnommée O
 """" O
-gastro B-DIS
+gastro O
 """" O
 , O
 """" O
@@ -19110,9 +19110,9 @@ année O
 Gare O
 à O
 la O
-grippe O
+grippe B-DIS
 La O
-grippe O
+grippe B-DIS
 a O
 déjà O
 touché O
@@ -19165,7 +19165,7 @@ semaines O
 """" O
 pour O
 une O
-grippe O
+grippe B-DIS
 , O
 relève O
 le O
@@ -19184,7 +19184,7 @@ l O
 incidence O
 de O
 la O
-grippe O
+grippe B-DIS
 clinique O
 a O
 été O
@@ -19441,7 +19441,7 @@ La O
 dernière O
 épidémie O
 de O
-grippe O
+grippe B-DIS
 hivernale O
 , O
 qui O
@@ -20429,7 +20429,7 @@ foam O
 can O
 help O
 fight O
-dengue B-DIS
+dengue O
 mosquito O
 ’ O
 Published O
@@ -20443,8 +20443,8 @@ returning O
 from O
 Thailand O
 , O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 share O
 new O
 knowledge O
@@ -20461,7 +20461,7 @@ control O
 in O
 fishing O
 the O
-dengue B-DIS
+dengue O
 fever O
 spread O
 , O
@@ -20472,8 +20472,8 @@ went O
 to O
 Thailand O
 and O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 for O
 training O
 in O
@@ -20516,7 +20516,7 @@ sent O
 to O
 attend O
 the O
-Dengue I-DIS
+Dengue O
 Epidemic O
 Prevention O
 Control O
@@ -20542,7 +20542,7 @@ very O
 effective O
 in O
 killing O
-dengue B-DIS
+dengue O
 larvae O
 . O
 
@@ -20605,7 +20605,7 @@ the O
 head O
 of O
 the O
-Dengue I-DIS
+Dengue O
 Research O
 Group O
 , O
@@ -20638,7 +20638,7 @@ best O
 to O
 control O
 the O
-dengue B-DIS
+dengue O
 virus O
 . O
 
@@ -20651,12 +20651,12 @@ regarding O
 communicable O
 diseases O
 including O
-dengue B-DIS
+dengue O
 fever O
 . O
 
 A O
-dengue B-DIS
+dengue O
 day O
 was O
 also O
@@ -20684,7 +20684,7 @@ be O
 improved O
 to O
 treat O
-dengue B-DIS
+dengue O
 effectively O
 . O
 
@@ -20713,7 +20713,7 @@ ways O
 to O
 judge O
 which O
-dengue B-DIS
+dengue O
 patient O
 needs O
 to O
@@ -20820,10 +20820,10 @@ system O
 differentiating O
 patients O
 of O
-dengue B-DIS
+dengue O
 fever O
 and O
-dengue B-DIS
+dengue O
 hemorrhagic O
 fever O
 . O
@@ -20861,7 +20861,7 @@ had O
 to O
 live O
 with O
-dengue B-DIS
+dengue O
 for O
 some O
 time O
@@ -20876,7 +20876,7 @@ said O
 was O
 to O
 reduce O
-dengue B-DIS
+dengue O
 related O
 mortality O
 and O
@@ -20907,7 +20907,7 @@ notification O
 system O
 to O
 reduce O
-dengue B-DIS
+dengue O
 related O
 deaths O
 to O
@@ -20941,8 +20941,8 @@ course O
 in O
 Thailand O
 and O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 was O
 pre O
 structured O
@@ -20976,7 +20976,7 @@ target O
 is O
 not O
 allowing O
-dengue B-DIS
+dengue O
 to O
 become O
 an O
@@ -21609,11 +21609,11 @@ choroby O
 再 O
 奪 O
 2命 O
-" 累" O
+" 累"
 計 O
 20 O
 死 O
-" 流" O
+" 流"
 感疫 O
 情持 O
 續升 O
@@ -21649,7 +21649,7 @@ choroby O
 楊菁 O
 菁攝 O
 ） O
-" 〔" O
+" 〔"
 記者 O
 魏 O
 怡 O
@@ -21734,11 +21734,11 @@ choroby O
 2人 O
 沒 O
 打疫 O
-"苗 " O
+"苗 "
 都 O
 有 O
 糖尿病 O
-" 疾" O
+" 疾"
 管局 O
 副局 O
 長 O
@@ -22912,7 +22912,7 @@ pour O
 enrayer O
 l`épidémie O
 de O
-choléra B-DIS
+choléra O
 qui O
 ravage O
 son O
@@ -22993,7 +22993,7 @@ l`avoir O
 contaminé O
 avec O
 du O
-choléra B-DIS
+choléra O
 et O
 de O
 l`anthrax O
@@ -23011,7 +23011,7 @@ militaire O
 Concernant O
 l`épidémie O
 du O
-choléra B-DIS
+choléra O
 , O
 le O
 gouvernement O
@@ -23132,7 +23132,7 @@ les O
 pays O
 voisins O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 à O
 « O
 rejoindre O
@@ -24709,3 +24709,4 @@ CDC O
 Νομού O
 Λακωνίας O
 . O
+
