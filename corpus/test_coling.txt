@@ -1,4 +1,4 @@
-Malaria O
+Malaria I-DIS
 blamed O
 for O
 655,000 O
@@ -7,7 +7,7 @@ in O
 2010 O
 GENEVA O
 : O
-Malaria O
+Malaria I-DIS
 caused O
 the O
 death O
@@ -66,7 +66,7 @@ the O
 216 O
 million O
 cases O
-worldwide O
+worldwide B-LOC
 in O
 2010 O
 . O
@@ -75,7 +75,7 @@ In O
 its O
 annual O
 World O
-Malaria O
+Malaria I-DIS
 Report O
 for O
 2011 O
@@ -116,7 +116,7 @@ agency O
 aims O
 to O
 eradicate O
-malaria O
+malaria B-DIS
 deaths O
 altogether O
 by O
@@ -144,7 +144,7 @@ for O
 the O
 fight O
 against O
-malaria O
+malaria B-DIS
 peaked O
 at O
 $ O
@@ -282,7 +282,7 @@ for O
 control O
 programmes O
 in O
-malaria O
+malaria B-DIS
 endemic O
 countries O
 , O
@@ -309,7 +309,7 @@ in O
 the O
 fight O
 against O
-malaria O
+malaria B-DIS
 but O
 said O
 parasite O
@@ -381,7 +381,7 @@ to O
 the O
 WHO O
 , O
-malaria O
+malaria B-DIS
 is O
 endemic O
 in O
@@ -428,7 +428,7 @@ percent O
 of O
 deaths O
 from O
-Malaria O
+Malaria I-DIS
 : O
 Nigeria O
 , O
@@ -455,7 +455,7 @@ estimated O
 176 O
 cases O
 of O
-malaria O
+malaria B-DIS
 in O
 2010 O
 with O
@@ -1917,7 +1917,7 @@ Ru O
 падает O
 показатель O
 заболеваемости O
-ОРВИ B-DIS
+ОРВИ O
 . O
 
 Об O
@@ -2003,7 +2003,7 @@ Ru O
 в O
 праздники O
 на O
-Луганщине B-LOC
+Луганщине O
 был O
 введен O
 оперативный O
@@ -2014,7 +2014,7 @@ Ru O
 заболеваемости O
 гриппом O
 и O
-ОРВИ B-DIS
+ОРВИ O
 . O
 
 В O
@@ -2024,7 +2024,7 @@ Ru O
 что O
 уровень O
 заболеваемости O
-ОРВИ B-DIS
+ОРВИ O
 не O
 превышает O
 эпидпорог O
@@ -3740,7 +3740,7 @@ humanitaires O
 и O
 фитосанитарная O
 служба O
-Украины B-LOC
+Украины O
 заявила O
 о O
 том O
@@ -3810,7 +3810,7 @@ humanitaires O
 течение O
 2011 O
 года O
-сальмонелла B-DIS
+сальмонелла O
 была O
 обнаружена O
 в O
@@ -5917,19 +5917,19 @@ wards O
 to O
 visitors O
 over O
-norovirus O
-Norovirus O
+norovirus B-DIS
+Norovirus I-DIS
 shuts O
 wards O
 at O
 hospital O
 . O
 
-Norovirus O
+Norovirus I-DIS
 closes O
 ward O
 in O
-Bedford O
+Bedford B-LOC
 All O
 wards O
 , O
@@ -5970,7 +5970,7 @@ and O
 public O
 from O
 the O
-norovirus O
+norovirus B-DIS
 bug O
 . O
 
@@ -6409,7 +6409,7 @@ tax O
 alone O
 . O
 
-Zimbabwe O
+Zimbabwe B-LOC
 : O
 visite O
 du O
@@ -6454,7 +6454,7 @@ Sambo O
 se O
 trouve O
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 pour O
 effectuer O
 une O
@@ -6467,7 +6467,7 @@ l O
 ' O
 éruption O
 du O
-choléra O
+choléra B-DIS
 qui O
 avait O
 fait O
@@ -6525,9 +6525,9 @@ l O
 ' O
 éruption O
 de O
-choléra O
+choléra B-DIS
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 et O
 à O
 ses O
@@ -6550,7 +6550,7 @@ signalé O
 des O
 cas O
 de O
-choléra O
+choléra B-DIS
 . O
 
 Au O
@@ -6579,7 +6579,7 @@ de O
 400 O
 cas O
 de O
-choléra O
+choléra B-DIS
 et O
 neuf O
 morts O
@@ -6594,7 +6594,7 @@ régions O
 limitrophes O
 avec O
 le O
-Zimbabwe O
+Zimbabwe B-LOC
 , O
 alors O
 que O
@@ -6651,7 +6651,7 @@ la O
 lutte O
 contre O
 le O
-choléra O
+choléra B-DIS
 en O
 envoyant O
 des O
@@ -6708,7 +6708,7 @@ que O
 200 O
 cas O
 de O
-choléra O
+choléra B-DIS
 modérés O
 . O
 
@@ -6740,7 +6740,7 @@ et O
 de O
 commandement O
 du O
-choléra O
+choléra B-DIS
 afin O
 de O
 favoriser O
@@ -22458,7 +22458,7 @@ politique O
 % O
 τα O
 κρούσματα O
-ιλαράς B-DIS
+ιλαράς O
 μέχρι O
 το O
 2015 O
@@ -22483,7 +22483,7 @@ politique O
 ότι O
 μια O
 επιδημία O
-ιλαράς B-DIS
+ιλαράς O
 σε O
 πανευρωπαϊκό O
 επίπεδο O
@@ -22530,7 +22530,7 @@ politique O
 τους O
 και O
 η O
-Ευρώπη B-LOC
+Ευρώπη O
 , O
 να O
 μειωθούν O
@@ -22540,7 +22540,7 @@ politique O
 % O
 τα O
 κρούσματα O
-ιλαράς B-DIS
+ιλαράς O
 μέχρι O
 το O
 2015 O
@@ -22558,7 +22558,7 @@ H O
 τριδύναμο O
 εμβόλιο O
 της O
-ιλαράς B-DIS
+ιλαράς O
 , O
 παρωτίτιδας O
 και O
@@ -22615,7 +22615,7 @@ MMR O
 , O
 τα O
 κρούσματα O
-ιλαράς B-DIS
+ιλαράς O
 αυξήθηκαν O
 σημαντικά O
 μετά O
@@ -22714,12 +22714,12 @@ MMR O
 του O
 ιού O
 της O
-ιλαράς B-DIS
+ιλαράς O
 που O
 κυκλοφορεί O
 σήμερα O
 στην O
-Ευρώπη B-LOC
+Ευρώπη O
 είναι O
 αυτός O
 που O
@@ -22806,7 +22806,7 @@ D4 O
 ΠΟΥ O
 για O
 την O
-Ευρώπη B-LOC
+Ευρώπη O
 Σουζάνα O
 Τζακάμπ O
 . O
