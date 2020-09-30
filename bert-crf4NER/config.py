@@ -1,8 +1,8 @@
 class Config(object):	
 	apr_dir = '../model/'
 	data_dir = '../corpus/'
-	model_name = 'model_0.pt'
-	epoch = 1
+	model_name = 'model_4.pt'
+	epoch = 5
 	bert_model = 'xlm-roberta-large'
 	lr = 5e-5
 	eps = 1e-8
