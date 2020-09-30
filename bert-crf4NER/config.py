@@ -5,7 +5,7 @@ class Config(object):
 	epoch = 5
 	bert_model = 'bert-base-multilingual-uncased'
 	lr = 5e-5
-	eps = 1e-8
+	#eps = 1e-8
 	batch_size = 8
 	mode = 'prediction' # for prediction mode = "prediction"
 	training_data = 'train.txt'
