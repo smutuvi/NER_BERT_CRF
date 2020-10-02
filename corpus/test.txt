@@ -1,4 +1,4 @@
-Malaria O
+Malaria I-DIS
 blamed O
 for O
 655,000 O
@@ -7,7 +7,7 @@ in O
 2010 O
 GENEVA O
 : O
-Malaria O
+Malaria I-DIS
 caused O
 the O
 death O
@@ -66,7 +66,7 @@ the O
 216 O
 million O
 cases O
-worldwide O
+worldwide B-LOC
 in O
 2010 O
 . O
@@ -75,7 +75,7 @@ In O
 its O
 annual O
 World O
-Malaria O
+Malaria I-DIS
 Report O
 for O
 2011 O
@@ -116,7 +116,7 @@ agency O
 aims O
 to O
 eradicate O
-malaria O
+malaria B-DIS
 deaths O
 altogether O
 by O
@@ -144,7 +144,7 @@ for O
 the O
 fight O
 against O
-malaria O
+malaria B-DIS
 peaked O
 at O
 $ O
@@ -282,7 +282,7 @@ for O
 control O
 programmes O
 in O
-malaria O
+malaria B-DIS
 endemic O
 countries O
 , O
@@ -309,7 +309,7 @@ in O
 the O
 fight O
 against O
-malaria O
+malaria B-DIS
 but O
 said O
 parasite O
@@ -381,7 +381,7 @@ to O
 the O
 WHO O
 , O
-malaria O
+malaria B-DIS
 is O
 endemic O
 in O
@@ -428,7 +428,7 @@ percent O
 of O
 deaths O
 from O
-Malaria O
+Malaria I-DIS
 : O
 Nigeria O
 , O
@@ -455,7 +455,7 @@ estimated O
 176 O
 cases O
 of O
-malaria O
+malaria B-DIS
 in O
 2010 O
 with O
@@ -5917,19 +5917,19 @@ wards O
 to O
 visitors O
 over O
-norovirus B-DIS
-Norovirus I-DIS
+norovirus O
+Norovirus O
 shuts O
 wards O
 at O
 hospital O
 . O
 
-Norovirus I-DIS
+Norovirus O
 closes O
 ward O
 in O
-Bedford B-LOC
+Bedford O
 All O
 wards O
 , O
@@ -5970,7 +5970,7 @@ and O
 public O
 from O
 the O
-norovirus B-DIS
+norovirus O
 bug O
 . O
 
@@ -6409,7 +6409,7 @@ tax O
 alone O
 . O
 
-Zimbabwe B-LOC
+Zimbabwe O
 : O
 visite O
 du O
@@ -6454,7 +6454,7 @@ Sambo O
 se O
 trouve O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 pour O
 effectuer O
 une O
@@ -6467,7 +6467,7 @@ l O
 ' O
 éruption O
 du O
-choléra B-DIS
+choléra O
 qui O
 avait O
 fait O
@@ -6525,9 +6525,9 @@ l O
 ' O
 éruption O
 de O
-choléra B-DIS
+choléra O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 et O
 à O
 ses O
@@ -6550,7 +6550,7 @@ signalé O
 des O
 cas O
 de O
-choléra B-DIS
+choléra O
 . O
 
 Au O
@@ -6579,7 +6579,7 @@ de O
 400 O
 cas O
 de O
-choléra B-DIS
+choléra O
 et O
 neuf O
 morts O
@@ -6594,7 +6594,7 @@ régions O
 limitrophes O
 avec O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 , O
 alors O
 que O
@@ -6651,7 +6651,7 @@ la O
 lutte O
 contre O
 le O
-choléra B-DIS
+choléra O
 en O
 envoyant O
 des O
@@ -6708,7 +6708,7 @@ que O
 200 O
 cas O
 de O
-choléra B-DIS
+choléra O
 modérés O
 . O
 
@@ -6740,7 +6740,7 @@ et O
 de O
 commandement O
 du O
-choléra B-DIS
+choléra O
 afin O
 de O
 favoriser O
@@ -13943,7 +13943,7 @@ oncle O
 , O
 malade O
 du O
-choléra B-DIS
+choléra O
 , O
 qui O
 gît O
@@ -13977,7 +13977,7 @@ avoir O
 infecté O
 par O
 le O
-choléra B-DIS
+choléra O
 , O
 qui O
 a O
@@ -13994,7 +13994,7 @@ de O
 800 O
 morts O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 . O
 
 Provocation O
@@ -14114,9 +14114,9 @@ ny O
 avait O
 plus O
 de O
-choléra B-DIS
+choléra O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 ! O
 
 La O
@@ -14180,7 +14180,7 @@ La O
 raison O
 , O
 le O
-choléra B-DIS
+choléra O
 , O
 nexiste O
 plus O
@@ -14199,7 +14199,7 @@ pour O
 prévenir O
 lépidémie O
 de O
-choléra B-DIS
+choléra O
 , O
 pourtant O
 prévisible O
@@ -14264,7 +14264,7 @@ bouchés O
 Pour O
 prévenir O
 le O
-choléra B-DIS
+choléra O
 , O
 il O
 faut O
@@ -14670,7 +14670,7 @@ Cest O
 comme O
 si O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 avait O
 été O
 frappé O
@@ -14758,7 +14758,7 @@ une O
 catastrophe O
 humanitaire O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 » O
 , O
 explique O
@@ -15860,9 +15860,9 @@ Sentinelles O
 ΠΕΡΥΣΙ O
 Καλπάζει O
 το O
-AIDS B-DIS
+AIDS O
 στην O
-Ελλάδα B-LOC
+Ελλάδα O
 Στους O
 χρήστες O
 ενδοφλέβιων O
@@ -15896,9 +15896,9 @@ AIDS B-DIS
 η O
 επιδημία O
 του O
-AIDS B-DIS
+AIDS O
 στην O
-Ελλάδα B-LOC
+Ελλάδα O
 . O
 
 Εως O
@@ -16038,7 +16038,7 @@ AIDS B-DIS
 και O
 Αντιμετώπισης O
 του O
-AIDS B-DIS
+AIDS O
 Μάριος O
 Λαζανάς O
 και O
@@ -16054,7 +16054,7 @@ AIDS B-DIS
 Πανελλήνιο O
 Συνέδριο O
 του O
-AIDS B-DIS
+AIDS O
 , O
 το O
 οποίο O
@@ -16072,9 +16072,9 @@ AIDS B-DIS
 
 Καλπάζει O
 το O
-AIDS B-DIS
+AIDS O
 στην O
-Ελλάδα B-LOC
+Ελλάδα O
 Από O
 τα O
 στοιχεία O
@@ -16121,7 +16121,7 @@ HIV O
 της O
 επιδημίας O
 στην O
-Ελλάδα B-LOC
+Ελλάδα O
 . O
 
 Τα O
@@ -16220,9 +16220,9 @@ HIV O
 των O
 κρουσμάτων O
 του O
-AIDS B-DIS
+AIDS O
 στην O
-Ελλάδα B-LOC
+Ελλάδα O
 ανέρχεται O
 σε O
 11 O
@@ -16429,7 +16429,7 @@ HIV O
 ο O
 ιός O
 του O
-AIDS B-DIS
+AIDS O
 θα O
 εισβάλει O
 στην O
@@ -16497,7 +16497,7 @@ d O
 un O
 cas O
 de O
-leptospirose B-DIS
+leptospirose O
 chez O
 un O
 agent O
@@ -16565,7 +16565,7 @@ d O
 porteur O
 de O
 la O
-leptospirose B-DIS
+leptospirose O
 """" O
 ne O
 permettent O
@@ -16608,7 +16608,7 @@ confirmer O
 ce O
 cas O
 de O
-leptospirose B-DIS
+leptospirose O
 """" O
 , O
 indique O
@@ -16673,7 +16673,7 @@ le O
 deuxième O
 cas O
 de O
-leptospirose B-DIS
+leptospirose O
 mentionné O
 par O
 la O
@@ -16763,7 +16763,7 @@ la O
 Direction O
 SNCF O
 de O
-Paris B-LOC
+Paris O
 Saint O
 Lazare O
 demande O
@@ -16834,7 +16834,7 @@ préfecture O
 de O
 police O
 de O
-Paris B-LOC
+Paris O
 , O
 au O
 cours O
@@ -20429,7 +20429,7 @@ foam O
 can O
 help O
 fight O
-dengue O
+dengue B-DIS
 mosquito O
 ’ O
 Published O
@@ -20443,8 +20443,8 @@ returning O
 from O
 Thailand O
 , O
-Sri O
-Lanka O
+Sri B-LOC
+Lanka I-LOC
 share O
 new O
 knowledge O
@@ -20461,7 +20461,7 @@ control O
 in O
 fishing O
 the O
-dengue O
+dengue B-DIS
 fever O
 spread O
 , O
@@ -20472,8 +20472,8 @@ went O
 to O
 Thailand O
 and O
-Sri O
-Lanka O
+Sri B-LOC
+Lanka I-LOC
 for O
 training O
 in O
@@ -20516,7 +20516,7 @@ sent O
 to O
 attend O
 the O
-Dengue O
+Dengue I-DIS
 Epidemic O
 Prevention O
 Control O
@@ -20542,7 +20542,7 @@ very O
 effective O
 in O
 killing O
-dengue O
+dengue B-DIS
 larvae O
 . O
 
@@ -20605,7 +20605,7 @@ the O
 head O
 of O
 the O
-Dengue O
+Dengue I-DIS
 Research O
 Group O
 , O
@@ -20638,7 +20638,7 @@ best O
 to O
 control O
 the O
-dengue O
+dengue B-DIS
 virus O
 . O
 
@@ -20651,12 +20651,12 @@ regarding O
 communicable O
 diseases O
 including O
-dengue O
+dengue B-DIS
 fever O
 . O
 
 A O
-dengue O
+dengue B-DIS
 day O
 was O
 also O
@@ -20684,7 +20684,7 @@ be O
 improved O
 to O
 treat O
-dengue O
+dengue B-DIS
 effectively O
 . O
 
@@ -20713,7 +20713,7 @@ ways O
 to O
 judge O
 which O
-dengue O
+dengue B-DIS
 patient O
 needs O
 to O
@@ -20820,10 +20820,10 @@ system O
 differentiating O
 patients O
 of O
-dengue O
+dengue B-DIS
 fever O
 and O
-dengue O
+dengue B-DIS
 hemorrhagic O
 fever O
 . O
@@ -20861,7 +20861,7 @@ had O
 to O
 live O
 with O
-dengue O
+dengue B-DIS
 for O
 some O
 time O
@@ -20876,7 +20876,7 @@ said O
 was O
 to O
 reduce O
-dengue O
+dengue B-DIS
 related O
 mortality O
 and O
@@ -20907,7 +20907,7 @@ notification O
 system O
 to O
 reduce O
-dengue O
+dengue B-DIS
 related O
 deaths O
 to O
@@ -20941,8 +20941,8 @@ course O
 in O
 Thailand O
 and O
-Sri O
-Lanka O
+Sri B-LOC
+Lanka I-LOC
 was O
 pre O
 structured O
@@ -20976,7 +20976,7 @@ target O
 is O
 not O
 allowing O
-dengue O
+dengue B-DIS
 to O
 become O
 an O
@@ -22912,7 +22912,7 @@ pour O
 enrayer O
 l`épidémie O
 de O
-choléra B-DIS
+choléra O
 qui O
 ravage O
 son O
@@ -22993,7 +22993,7 @@ l`avoir O
 contaminé O
 avec O
 du O
-choléra B-DIS
+choléra O
 et O
 de O
 l`anthrax O
@@ -23011,7 +23011,7 @@ militaire O
 Concernant O
 l`épidémie O
 du O
-choléra B-DIS
+choléra O
 , O
 le O
 gouvernement O
@@ -23132,7 +23132,7 @@ les O
 pays O
 voisins O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 à O
 « O
 rejoindre O
