@@ -155,7 +155,7 @@ class Bert_CRF(XLMRobertaPreTrainedModel):
             prediction = self.crf.decode(emission, mask=attn_masks)
             return prediction
 
-def generate_training_data(config, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-base')):
+def generate_training_data(config, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-large')):
     training_data, validation_data = config.data_dir+config.training_data, config.data_dir+config.val_data 
     train_sentences, train_labels, label_set = corpus_reader(training_data, delim=' ')
     label_set.append('X')
@@ -181,7 +181,7 @@ def generate_training_data(config, bert_tokenizer=XLMRobertaTokenizer.from_pretr
                                 collate_fn=pad)
     return train_iter, eval_iter, tag2idx
 
-def generate_test_data(config, tag2idx, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-base')):
+def generate_test_data(config, tag2idx, bert_tokenizer=XLMRobertaTokenizer.from_pretrained('xlm-roberta-large')):
     test_data = config.data_dir+config.test_data
     test_sentences, test_labels, _ = corpus_reader(test_data, delim=' ')
     test_dataset = NER_Dataset(tag2idx, test_sentences, test_labels, tokenizer_path = bert_tokenizer)
@@ -192,7 +192,7 @@ def generate_test_data(config, tag2idx, bert_tokenizer=XLMRobertaTokenizer.from_
                                 collate_fn=pad)
     return test_iter
 
-def train(train_iter, eval_iter, tag2idx, config, bert_model="xlm-roberta-base"):
+def train(train_iter, eval_iter, tag2idx, config, bert_model="xlm-roberta-large"):
     #print('#Tags: ', len(tag2idx))
     unique_labels = list(tag2idx.keys())
     model = Bert_CRF.from_pretrained(bert_model, num_labels = len(tag2idx))
