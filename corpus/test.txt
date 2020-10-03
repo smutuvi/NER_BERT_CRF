@@ -1,4 +1,4 @@
-Malaria I-DIS
+Malaria O
 blamed O
 for O
 655,000 O
@@ -7,7 +7,7 @@ in O
 2010 O
 GENEVA O
 : O
-Malaria I-DIS
+Malaria O
 caused O
 the O
 death O
@@ -66,7 +66,7 @@ the O
 216 O
 million O
 cases O
-worldwide B-LOC
+worldwide O
 in O
 2010 O
 . O
@@ -75,7 +75,7 @@ In O
 its O
 annual O
 World O
-Malaria I-DIS
+Malaria O
 Report O
 for O
 2011 O
@@ -116,7 +116,7 @@ agency O
 aims O
 to O
 eradicate O
-malaria B-DIS
+malaria O
 deaths O
 altogether O
 by O
@@ -144,7 +144,7 @@ for O
 the O
 fight O
 against O
-malaria B-DIS
+malaria O
 peaked O
 at O
 $ O
@@ -282,7 +282,7 @@ for O
 control O
 programmes O
 in O
-malaria B-DIS
+malaria O
 endemic O
 countries O
 , O
@@ -309,7 +309,7 @@ in O
 the O
 fight O
 against O
-malaria B-DIS
+malaria O
 but O
 said O
 parasite O
@@ -381,7 +381,7 @@ to O
 the O
 WHO O
 , O
-malaria B-DIS
+malaria O
 is O
 endemic O
 in O
@@ -428,7 +428,7 @@ percent O
 of O
 deaths O
 from O
-Malaria I-DIS
+Malaria O
 : O
 Nigeria O
 , O
@@ -455,7 +455,7 @@ estimated O
 176 O
 cases O
 of O
-malaria B-DIS
+malaria O
 in O
 2010 O
 with O
@@ -1917,7 +1917,7 @@ Ru O
 падает O
 показатель O
 заболеваемости O
-ОРВИ O
+ОРВИ B-DIS
 . O
 
 Об O
@@ -2003,7 +2003,7 @@ Ru O
 в O
 праздники O
 на O
-Луганщине O
+Луганщине B-LOC
 был O
 введен O
 оперативный O
@@ -2014,7 +2014,7 @@ Ru O
 заболеваемости O
 гриппом O
 и O
-ОРВИ O
+ОРВИ B-DIS
 . O
 
 В O
@@ -2024,7 +2024,7 @@ Ru O
 что O
 уровень O
 заболеваемости O
-ОРВИ O
+ОРВИ B-DIS
 не O
 превышает O
 эпидпорог O
@@ -2143,8 +2143,8 @@ meurt O
 d O
 ' O
 un O
-virus B-DIS
-mystérieux I-DIS
+virus O
+mystérieux O
 à O
 Rio O
 de O
@@ -2183,7 +2183,7 @@ a O
 provoquée O
 par O
 un O
-virus B-DIS
+virus O
 encore O
 non O
 identifié O
@@ -2252,7 +2252,7 @@ africain O
 était O
 arrivé O
 au O
-Brésil B-LOC
+Brésil O
 le O
 23 O
 novembre O
@@ -2304,7 +2304,7 @@ le O
 paludisme O
 ou O
 le O
-virus B-DIS
+virus O
 Ebola O
 . O
 
@@ -2354,7 +2354,7 @@ raison O
 du O
 type O
 de O
-virus B-DIS
+virus O
 , O
 de O
 l O
@@ -2373,7 +2373,7 @@ autorités O
 . O
 
 Ces O
-virus B-DIS
+virus O
 étant O
 hautement O
 contagieux O
@@ -2484,7 +2484,7 @@ quel O
 que O
 soit O
 le O
-virus B-DIS
+virus O
 , O
 toutes O
 les O
@@ -4503,7 +4503,7 @@ Dr O
 Blanchon O
 . O
 
-Zimbabwe B-LOC
+Zimbabwe O
 : O
 Londres O
 et O
@@ -4564,7 +4564,7 @@ face O
 une O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 incontrôlée O
 . O
 
@@ -4606,7 +4606,7 @@ pour O
 la O
 situation O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 où O
 , O
 selon O
@@ -4642,7 +4642,7 @@ système O
 de O
 gouvernement O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 est O
 cassé O
 , O
@@ -4716,7 +4716,7 @@ tous O
 les O
 jours O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 et O
 que O
 régime O
@@ -4738,7 +4738,7 @@ pouvoir O
 une O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 s O
 ' O
 est O
@@ -4796,7 +4796,7 @@ de O
 la O
 situation O
 au O
-Zimbabwe B-LOC
+Zimbabwe O
 n O
 ' O
 est O
@@ -4813,7 +4813,7 @@ du O
 gouvernement O
 voyou O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 """" O
 , O
 a O
@@ -4893,7 +4893,7 @@ L O
 ' O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 , O
 qui O
 a O
@@ -5035,7 +5035,7 @@ UE O
 avait O
 averti O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 à O
 la O
 mi O
@@ -6409,7 +6409,7 @@ tax O
 alone O
 . O
 
-Zimbabwe O
+Zimbabwe B-LOC
 : O
 visite O
 du O
@@ -6454,7 +6454,7 @@ Sambo O
 se O
 trouve O
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 pour O
 effectuer O
 une O
@@ -6467,7 +6467,7 @@ l O
 ' O
 éruption O
 du O
-choléra O
+choléra B-DIS
 qui O
 avait O
 fait O
@@ -6525,9 +6525,9 @@ l O
 ' O
 éruption O
 de O
-choléra O
+choléra B-DIS
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 et O
 à O
 ses O
@@ -6550,7 +6550,7 @@ signalé O
 des O
 cas O
 de O
-choléra O
+choléra B-DIS
 . O
 
 Au O
@@ -6579,7 +6579,7 @@ de O
 400 O
 cas O
 de O
-choléra O
+choléra B-DIS
 et O
 neuf O
 morts O
@@ -6594,7 +6594,7 @@ régions O
 limitrophes O
 avec O
 le O
-Zimbabwe O
+Zimbabwe B-LOC
 , O
 alors O
 que O
@@ -6651,7 +6651,7 @@ la O
 lutte O
 contre O
 le O
-choléra O
+choléra B-DIS
 en O
 envoyant O
 des O
@@ -6708,7 +6708,7 @@ que O
 200 O
 cas O
 de O
-choléra O
+choléra B-DIS
 modérés O
 . O
 
@@ -6740,7 +6740,7 @@ et O
 de O
 commandement O
 du O
-choléra O
+choléra B-DIS
 afin O
 de O
 favoriser O
@@ -6755,8 +6755,8 @@ l O
 
 Συναγερμός O
 στο O
-Χονγκ B-LOC
-Κονγκ I-LOC
+Χονγκ O
+Κονγκ O
 για O
 τη O
 γρίπη O
@@ -6771,8 +6771,8 @@ l O
 Οι O
 αρχές O
 του O
-Χονγκ B-LOC
-Κονγκ I-LOC
+Χονγκ O
+Κονγκ O
 αναβάθμισαν O
 τον O
 συναγερμό O
@@ -6799,7 +6799,7 @@ l O
 ανιχνεύτηκε O
 ο O
 ιός O
-Η5Ν1 B-DIS
+Η5Ν1 O
 . O
 
 Το O
@@ -6827,8 +6827,8 @@ l O
 Υπηρεσιών O
 Υγείας O
 του O
-Χονγκ B-LOC
-Κονγκ I-LOC
+Χονγκ O
+Κονγκ O
 Γιορκ O
 Τσόου O
 ανακοίνωσε O
@@ -6856,8 +6856,8 @@ l O
 σε O
 αγορά O
 του O
-Χονγκ B-LOC
-Κονγκ I-LOC
+Χονγκ O
+Κονγκ O
 κοτόπουλου O
 που O
 είχε O
@@ -6874,7 +6874,7 @@ l O
 θετικό O
 στον O
 ιό O
-Η5Ν1 B-DIS
+Η5Ν1 O
 μετά O
 τον O
 έλεγχο O
@@ -6962,8 +6962,8 @@ RTHK O
 . O
 
 Το O
-Χονγκ B-LOC
-Κονγκ I-LOC
+Χονγκ O
+Κονγκ O
 ήταν O
 η O
 πρώτη O
@@ -7039,8 +7039,8 @@ RTHK O
 . O
 
 La O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 de O
 retour O
 dans O
@@ -7050,17 +7050,17 @@ pays O
 Malgré O
 la O
 lutte O
-mondiale B-LOC
+mondiale O
 contre O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 pilotée O
 par O
 l O
 ' O
 Organisation O
-mondiale B-LOC
+mondiale O
 de O
 la O
 santé O
@@ -7316,8 +7316,8 @@ virus O
 H5N1 O
 de O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 sont O
 en O
 cours O
@@ -7337,8 +7337,8 @@ virus O
 H5N1 O
 de O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 , O
 identifiés O
 depuis O
@@ -7434,8 +7434,8 @@ non O
 vaccinés O
 contre O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 . O
 
 Le O
@@ -7622,7 +7622,7 @@ d O
 ' O
 une O
 pandémie O
-mondiale B-LOC
+mondiale O
 hante O
 toujours O
 les O
@@ -8089,7 +8089,7 @@ et O
 économique O
 , O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 est O
 plingé O
 depuis O
@@ -8106,7 +8106,7 @@ notamment O
 une O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 qui O
 a O
 déjà O
@@ -8217,14 +8217,14 @@ sur O
 leur O
 homologue O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 . O
 
 : O
 Le O
 peuple O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 a O
 voté O
 pour O
@@ -8287,7 +8287,7 @@ aggravée O
 avec O
 lépidémie O
 de O
-choléra B-DIS
+choléra O
 , O
 des O
 appels O
@@ -8419,7 +8419,7 @@ Des O
 sanctions O
 contre O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 nont O
 pas O
 altéré O
@@ -8597,7 +8597,7 @@ si O
 le O
 président O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 refuse O
 de O
 partir O
@@ -8709,7 +8709,7 @@ préparer O
 une O
 invasion O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 . O
 
 Il O
@@ -8761,7 +8761,7 @@ le O
 premier O
 président O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 le O
 31 O
 décembre O
@@ -9826,7 +9826,7 @@ aussi O
 : O
 
 Le O
-Zimbabwe B-LOC
+Zimbabwe O
 , O
 entre O
 la O
@@ -9854,7 +9854,7 @@ du O
 Sud O
 , O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 continue O
 son O
 décompte O
@@ -9866,7 +9866,7 @@ l O
 ' O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 , O
 qui O
 s O
@@ -9974,7 +9974,7 @@ dernier O
 . O
 
 Le O
-choléra B-DIS
+choléra O
 , O
 maladie O
 des O
@@ -9996,7 +9996,7 @@ laquelle O
 est O
 plongée O
 le O
-Zimbabwe B-LOC
+Zimbabwe O
 depuis O
 que O
 la O
@@ -10112,7 +10112,7 @@ dizaine O
 de O
 victimes O
 du O
-choléra B-DIS
+choléra O
 , O
 qui O
 a O
@@ -10189,7 +10189,7 @@ l O
 ' O
 épidémie O
 de O
-choléra B-DIS
+choléra O
 , O
 qui O
 frappe O
@@ -10239,7 +10239,7 @@ contre O
 le O
 peuple O
 du O
-Zimbabwe B-LOC
+Zimbabwe O
 par O
 les O
 Britanniques O
@@ -13943,7 +13943,7 @@ oncle O
 , O
 malade O
 du O
-choléra O
+choléra B-DIS
 , O
 qui O
 gît O
@@ -13977,7 +13977,7 @@ avoir O
 infecté O
 par O
 le O
-choléra O
+choléra B-DIS
 , O
 qui O
 a O
@@ -13994,7 +13994,7 @@ de O
 800 O
 morts O
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 . O
 
 Provocation O
@@ -14114,9 +14114,9 @@ ny O
 avait O
 plus O
 de O
-choléra O
+choléra B-DIS
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 ! O
 
 La O
@@ -14180,7 +14180,7 @@ La O
 raison O
 , O
 le O
-choléra O
+choléra B-DIS
 , O
 nexiste O
 plus O
@@ -14199,7 +14199,7 @@ pour O
 prévenir O
 lépidémie O
 de O
-choléra O
+choléra B-DIS
 , O
 pourtant O
 prévisible O
@@ -14264,7 +14264,7 @@ bouchés O
 Pour O
 prévenir O
 le O
-choléra O
+choléra B-DIS
 , O
 il O
 faut O
@@ -14670,7 +14670,7 @@ Cest O
 comme O
 si O
 le O
-Zimbabwe O
+Zimbabwe B-LOC
 avait O
 été O
 frappé O
@@ -14758,7 +14758,7 @@ une O
 catastrophe O
 humanitaire O
 au O
-Zimbabwe O
+Zimbabwe B-LOC
 » O
 , O
 explique O
@@ -16497,7 +16497,7 @@ d O
 un O
 cas O
 de O
-leptospirose O
+leptospirose B-DIS
 chez O
 un O
 agent O
@@ -16565,7 +16565,7 @@ d O
 porteur O
 de O
 la O
-leptospirose O
+leptospirose B-DIS
 """" O
 ne O
 permettent O
@@ -16608,7 +16608,7 @@ confirmer O
 ce O
 cas O
 de O
-leptospirose O
+leptospirose B-DIS
 """" O
 , O
 indique O
@@ -16673,7 +16673,7 @@ le O
 deuxième O
 cas O
 de O
-leptospirose O
+leptospirose B-DIS
 mentionné O
 par O
 la O
@@ -16763,7 +16763,7 @@ la O
 Direction O
 SNCF O
 de O
-Paris O
+Paris B-LOC
 Saint O
 Lazare O
 demande O
@@ -16834,7 +16834,7 @@ préfecture O
 de O
 police O
 de O
-Paris O
+Paris B-LOC
 , O
 au O
 cours O
@@ -20429,7 +20429,7 @@ foam O
 can O
 help O
 fight O
-dengue B-DIS
+dengue O
 mosquito O
 ’ O
 Published O
@@ -20443,8 +20443,8 @@ returning O
 from O
 Thailand O
 , O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 share O
 new O
 knowledge O
@@ -20461,7 +20461,7 @@ control O
 in O
 fishing O
 the O
-dengue B-DIS
+dengue O
 fever O
 spread O
 , O
@@ -20472,8 +20472,8 @@ went O
 to O
 Thailand O
 and O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 for O
 training O
 in O
@@ -20516,7 +20516,7 @@ sent O
 to O
 attend O
 the O
-Dengue I-DIS
+Dengue O
 Epidemic O
 Prevention O
 Control O
@@ -20542,7 +20542,7 @@ very O
 effective O
 in O
 killing O
-dengue B-DIS
+dengue O
 larvae O
 . O
 
@@ -20605,7 +20605,7 @@ the O
 head O
 of O
 the O
-Dengue I-DIS
+Dengue O
 Research O
 Group O
 , O
@@ -20638,7 +20638,7 @@ best O
 to O
 control O
 the O
-dengue B-DIS
+dengue O
 virus O
 . O
 
@@ -20651,12 +20651,12 @@ regarding O
 communicable O
 diseases O
 including O
-dengue B-DIS
+dengue O
 fever O
 . O
 
 A O
-dengue B-DIS
+dengue O
 day O
 was O
 also O
@@ -20684,7 +20684,7 @@ be O
 improved O
 to O
 treat O
-dengue B-DIS
+dengue O
 effectively O
 . O
 
@@ -20713,7 +20713,7 @@ ways O
 to O
 judge O
 which O
-dengue B-DIS
+dengue O
 patient O
 needs O
 to O
@@ -20820,10 +20820,10 @@ system O
 differentiating O
 patients O
 of O
-dengue B-DIS
+dengue O
 fever O
 and O
-dengue B-DIS
+dengue O
 hemorrhagic O
 fever O
 . O
@@ -20861,7 +20861,7 @@ had O
 to O
 live O
 with O
-dengue B-DIS
+dengue O
 for O
 some O
 time O
@@ -20876,7 +20876,7 @@ said O
 was O
 to O
 reduce O
-dengue B-DIS
+dengue O
 related O
 mortality O
 and O
@@ -20907,7 +20907,7 @@ notification O
 system O
 to O
 reduce O
-dengue B-DIS
+dengue O
 related O
 deaths O
 to O
@@ -20941,8 +20941,8 @@ course O
 in O
 Thailand O
 and O
-Sri B-LOC
-Lanka I-LOC
+Sri O
+Lanka O
 was O
 pre O
 structured O
@@ -20976,7 +20976,7 @@ target O
 is O
 not O
 allowing O
-dengue B-DIS
+dengue O
 to O
 become O
 an O
@@ -20994,10 +20994,10 @@ décès O
 dû O
 à O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 en O
-Egypte B-LOC
+Egypte O
 Une O
 adolescente O
 égyptienne O
@@ -21027,7 +21027,7 @@ depuis O
 son O
 apparition O
 en O
-Egypte B-LOC
+Egypte O
 il O
 y O
 a O
@@ -21066,8 +21066,8 @@ plus O
 touchés O
 par O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 . O
 
 Samiha O
@@ -21144,10 +21144,10 @@ février O
 2006 O
 de O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 en O
-Egypte B-LOC
+Egypte O
 , O
 lun O
 des O
@@ -21157,8 +21157,8 @@ plus O
 touchés O
 par O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 . O
 
 Samiha O
@@ -21247,10 +21247,10 @@ des O
 victimes O
 de O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 en O
-Egypte B-LOC
+Egypte O
 , O
 pays O
 le O
@@ -21394,8 +21394,8 @@ le O
 traitement O
 contre O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 doit O
 être O
 administré O
@@ -21422,8 +21422,8 @@ du O
 virus O
 de O
 la O
-grippe B-DIS
-aviaire I-DIS
+grippe O
+aviaire O
 a O
 tué O
 près O
@@ -21605,15 +21605,15 @@ symptomów O
 choroby O
 . O
 
-流感 B-DIS
+流感 O
 再 O
 奪 O
 2命 O
-" 累"
+" O
 計 O
 20 O
 死 O
-" 流"
+" O
 感疫 O
 情持 O
 續升 O
@@ -21636,7 +21636,7 @@ choroby O
 成立 O
 類流 O
 感及 O
-流感 B-DIS
+流感 O
 特別 O
 門診 O
 。 O
@@ -21649,7 +21649,7 @@ choroby O
 楊菁 O
 菁攝 O
 ） O
-" 〔"
+" O
 記者 O
 魏 O
 怡 O
@@ -21662,7 +21662,7 @@ choroby O
 續升 O
 溫 O
 ， O
-流感 B-DIS
+流感 O
 死亡 O
 病例 O
 昨日 O
@@ -21720,7 +21720,7 @@ choroby O
 目前 O
 為止 O
 ， O
-流感 B-DIS
+流感 O
 總 O
 死亡 O
 人數 O
@@ -21734,11 +21734,11 @@ choroby O
 2人 O
 沒 O
 打疫 O
-"苗 "
+"苗 O
 都 O
 有 O
 糖尿病 O
-" 疾"
+" O
 管局 O
 副局 O
 長 O
@@ -21760,7 +21760,7 @@ choroby O
 累計 O
 共有 O
 四百四十二例 O
-流感 B-DIS
+流感 O
 併 O
 發症 O
 確定 O
@@ -21781,7 +21781,7 @@ choroby O
 為七十六例 O
 死亡 O
 ， O
-流感 B-DIS
+流感 O
 併 O
 發症 O
 發 O
@@ -21865,7 +21865,7 @@ choroby O
 ， O
 目前 O
 公費 O
-流感 B-DIS
+流感 O
 抗病 O
 毒藥 O
 物合 O
@@ -21899,7 +21899,7 @@ choroby O
 配發 O
 的 O
 公費克 O
-流感 B-DIS
+流感 O
 已 O
 經 O
 過期 O
@@ -21917,7 +21917,7 @@ choroby O
 出去 O
 的 O
 公費克 O
-流感 B-DIS
+流感 O
 的 O
 有效 O
 期限 O
@@ -21967,7 +21967,7 @@ choroby O
 是 O
 過 O
 期克 O
-流感 B-DIS
+流感 O
 ， O
 純屬 O
 誤會 O
@@ -22458,7 +22458,7 @@ politique O
 % O
 τα O
 κρούσματα O
-ιλαράς O
+ιλαράς B-DIS
 μέχρι O
 το O
 2015 O
@@ -22483,7 +22483,7 @@ politique O
 ότι O
 μια O
 επιδημία O
-ιλαράς O
+ιλαράς B-DIS
 σε O
 πανευρωπαϊκό O
 επίπεδο O
@@ -22530,7 +22530,7 @@ politique O
 τους O
 και O
 η O
-Ευρώπη O
+Ευρώπη B-LOC
 , O
 να O
 μειωθούν O
@@ -22540,7 +22540,7 @@ politique O
 % O
 τα O
 κρούσματα O
-ιλαράς O
+ιλαράς B-DIS
 μέχρι O
 το O
 2015 O
@@ -22558,7 +22558,7 @@ H O
 τριδύναμο O
 εμβόλιο O
 της O
-ιλαράς O
+ιλαράς B-DIS
 , O
 παρωτίτιδας O
 και O
@@ -22615,7 +22615,7 @@ MMR O
 , O
 τα O
 κρούσματα O
-ιλαράς O
+ιλαράς B-DIS
 αυξήθηκαν O
 σημαντικά O
 μετά O
@@ -22714,12 +22714,12 @@ MMR O
 του O
 ιού O
 της O
-ιλαράς O
+ιλαράς B-DIS
 που O
 κυκλοφορεί O
 σήμερα O
 στην O
-Ευρώπη O
+Ευρώπη B-LOC
 είναι O
 αυτός O
 που O
@@ -22806,7 +22806,7 @@ D4 O
 ΠΟΥ O
 για O
 την O
-Ευρώπη O
+Ευρώπη B-LOC
 Σουζάνα O
 Τζακάμπ O
 . O
@@ -22912,7 +22912,7 @@ pour O
 enrayer O
 l`épidémie O
 de O
-choléra O
+choléra B-DIS
 qui O
 ravage O
 son O
@@ -22993,7 +22993,7 @@ l`avoir O
 contaminé O
 avec O
 du O
-choléra O
+choléra B-DIS
 et O
 de O
 l`anthrax O
@@ -23011,7 +23011,7 @@ militaire O
 Concernant O
 l`épidémie O
 du O
-choléra O
+choléra B-DIS
 , O
 le O
 gouvernement O
@@ -23132,7 +23132,7 @@ les O
 pays O
 voisins O
 du O
-Zimbabwe O
+Zimbabwe B-LOC
 à O
 « O
 rejoindre O
