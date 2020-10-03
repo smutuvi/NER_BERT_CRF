@@ -28,7 +28,7 @@ from matplotlib import pyplot as plt
 import datetime
 from config import Config as config
 import spacy
-tokenizer = spacy.load("xx_ent_wiki_sm", disable=["tagger", "parser", "ner"])
+tokenizer = spacy.load("en_core_web_sm", disable=["tagger", "parser", "ner"])
 log_soft = F.log_softmax
 import sys
 from optparse import OptionParser
@@ -67,11 +67,11 @@ def corpus_reader(path, delim='\t', word_idx=0, label_idx=-1):
     return tokens, labels, list(OrderedDict.fromkeys(label_set))
 
 class NER_Dataset(data.Dataset):
-    def __init__(self, tag2idx, sentences, labels, tokenizer_path = ''):
+    def __init__(self, tag2idx, sentences, labels, tokenizer_path = '', do_lower_case=True):
         self.tag2idx = tag2idx
         self.sentences = sentences
         self.labels = labels
-        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
+        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_path, do_lower_case=do_lower_case)
 
     def __len__(self):
         return len(self.sentences)
@@ -130,18 +130,18 @@ def pad(batch):
 
     return tok_ids, attn_mask, org_tok_map, labels, sents, list(sorted_idx.cpu().numpy())
 
-def generate_training_data(config, bert_tokenizer="bert-base-multilingual-cased"):
+def generate_training_data(config, bert_tokenizer="bert-base-multilingual-uncased", do_lower_case=True):
     training_data, validation_data = config.data_dir+config.training_data, config.data_dir+config.val_data 
     train_sentences, train_labels, label_set = corpus_reader(training_data, delim=' ')
     label_set.append('X')
     tag2idx = {t:i for i, t in enumerate(label_set)}
     #print('Training datas: ', len(train_sentences))
-    train_dataset = NER_Dataset(tag2idx, train_sentences, train_labels, tokenizer_path = bert_tokenizer)
+    train_dataset = NER_Dataset(tag2idx, train_sentences, train_labels, tokenizer_path = bert_tokenizer, do_lower_case=do_lower_case)
     # save the tag2indx dictionary. Will be used while prediction
     with open(config.apr_dir + 'tag2idx.pkl', 'wb') as f:
         pickle.dump(tag2idx, f, pickle.HIGHEST_PROTOCOL)
     dev_sentences, dev_labels, _ = corpus_reader(validation_data, delim=' ')
-    dev_dataset = NER_Dataset(tag2idx, dev_sentences, dev_labels, tokenizer_path = bert_tokenizer)
+    dev_dataset = NER_Dataset(tag2idx, dev_sentences, dev_labels, tokenizer_path = bert_tokenizer, do_lower_case=do_lower_case)
 
     #print(len(train_dataset))
     train_iter = data.DataLoader(dataset=train_dataset,
@@ -156,10 +156,10 @@ def generate_training_data(config, bert_tokenizer="bert-base-multilingual-cased"
                                 collate_fn=pad)
     return train_iter, eval_iter, tag2idx
 
-def generate_test_data(config, tag2idx, bert_tokenizer="bert-base-multilingual-cased"):
+def generate_test_data(config, tag2idx, bert_tokenizer="bert-base-multilingual-uncased", do_lower_case=True):
     test_data = config.data_dir+config.test_data
     test_sentences, test_labels, _ = corpus_reader(test_data, delim=' ')
-    test_dataset = NER_Dataset(tag2idx, test_sentences, test_labels, tokenizer_path = bert_tokenizer)
+    test_dataset = NER_Dataset(tag2idx, test_sentences, test_labels, tokenizer_path = bert_tokenizer, do_lower_case=do_lower_case)
     test_iter = data.DataLoader(dataset=test_dataset,
                                 batch_size=config.batch_size,
                                 shuffle=False,
@@ -167,7 +167,7 @@ def generate_test_data(config, tag2idx, bert_tokenizer="bert-base-multilingual-c
                                 collate_fn=pad)
     return test_iter
 
-def train(train_iter, eval_iter, tag2idx, config, bert_model="bert-base-multilingual-cased"):
+def train(train_iter, eval_iter, tag2idx, config, bert_model="bert-base-multilingual-uncased"):
     #print('#Tags: ', len(tag2idx))
     unique_labels = list(tag2idx.keys())
     #model = Bert_CRF.from_pretrained(bert_model, num_labels = len(tag2idx))
@@ -352,7 +352,7 @@ def show_graph(training_loss, validation_loss, resource_dir):
     plt.show()
     plt.savefig(resource_dir + 'Loss.png')
 
-def load_model(config):
+def load_model(config, do_lower_case=True):
     f = open(config.apr_dir +'tag2idx.pkl', 'rb')
     tag2idx = pickle.load(f)
     unique_labels = list(tag2idx.keys())
@@ -360,7 +360,7 @@ def load_model(config):
     checkpoint = torch.load(config.apr_dir + config.model_name, map_location='cpu')
     model.load_state_dict(checkpoint['model_state_dict'])
     global bert_tokenizer
-    bert_tokenizer = BertTokenizer.from_pretrained(config.bert_model)
+    bert_tokenizer = BertTokenizer.from_pretrained(config.bert_model, do_lower_case=do_lower_case)
     if torch.cuda.is_available():
         model.cuda()
     model.eval()
@@ -415,12 +415,12 @@ if __name__ == "__main__":
     (options, args) = user_input.parse_args()
 
     if options.model_mode == "train":
-        train_iter, eval_iter, tag2idx = generate_training_data(config=config, bert_tokenizer=config.bert_model)
+        train_iter, eval_iter, tag2idx = generate_training_data(config=config, bert_tokenizer=config.bert_model, do_lower_case=True)
         t_loss, v_loss = train(train_iter, eval_iter, tag2idx, config=config, bert_model=config.bert_model)
         show_graph(t_loss, v_loss, config.apr_dir)
     elif options.model_mode == "test":
-        model, bert_tokenizer, unique_labels, tag2idx = load_model(config=config)
-        test_iter = generate_test_data(config, tag2idx, bert_tokenizer=config.bert_model)
+        model, bert_tokenizer, unique_labels, tag2idx = load_model(config=config, do_lower_case=True)
+        test_iter = generate_test_data(config, tag2idx, bert_tokenizer=config.bert_model, do_lower_case=True)
         print('test len: ', len(test_iter))
         test(config, test_iter, model, unique_labels, config.test_out)
     elif options.model_mode == "raw_text":
@@ -428,7 +428,7 @@ if __name__ == "__main__":
             print('Please provide the raw text path on config.raw_text')
             import sys
             sys.exit(1)
-        model, bert_tokenizer, unique_labels, tag2idx= load_model(config=config)
+        model, bert_tokenizer, unique_labels, tag2idx= load_model(config=config, do_lower_case=True)
         doc = open(config.raw_text).read()
         pad_data = raw_processing(doc, bert_tokenizer)
         parse_raw_data(pad_data, model, unique_labels, out_file_name=config.raw_prediction_output)
