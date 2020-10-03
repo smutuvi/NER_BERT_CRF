@@ -14,13 +14,14 @@ import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
 from torch.utils import data 
-# from transformers import BertTokenizer
 from transformers import XLMRobertaTokenizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 import numpy as np
 import os
 # from transformers import BertPreTrainedModel, BertModel, BertForTokenClassification
 from transformers import XLMRobertaModel, XLMRobertaForTokenClassification
+# from pytorch_transformers.modeling_bert import XLMRobertaPreTrainedModel
+
 from torchcrf import CRF
 import timeit
 import subprocess
@@ -73,7 +74,7 @@ class NER_Dataset(data.Dataset):
         self.tag2idx = tag2idx
         self.sentences = sentences
         self.labels = labels
-        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
+        self.tokenizer = XLMRobertaTokenizer.from_pretrained(tokenizer_path)
 
     def __len__(self):
         return len(self.sentences)
@@ -173,7 +174,7 @@ def train(train_iter, eval_iter, tag2idx, config, bert_model="xlm-roberta-base")
     #print('#Tags: ', len(tag2idx))
     unique_labels = list(tag2idx.keys())
     #model = Bert_CRF.from_pretrained(bert_model, num_labels = len(tag2idx))
-    model = BertForTokenClassification.from_pretrained(bert_model, num_labels=len(tag2idx))
+    model = XLMRobertaForTokenClassification.from_pretrained(bert_model, num_labels=len(tag2idx))
     model.train()
     if torch.cuda.is_available():
       model.cuda()

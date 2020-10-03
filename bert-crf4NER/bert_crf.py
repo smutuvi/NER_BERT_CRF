@@ -14,13 +14,13 @@ import torch.nn as nn
 from torch import optim
 import torch.nn.functional as F
 from torch.utils import data 
-# from transformers import BertTokenizer
 from transformers import BertTokenizer, XLMRobertaTokenizer
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 import numpy as np
 import os
-# from transformers import BertPreTrainedModel, BertModel
 from transformers import XLMRobertaModel
+# from pytorch_transformers.modeling_bert import XLMRobertaPreTrainedModel
+
 from torchcrf import CRF
 import timeit
 import subprocess
